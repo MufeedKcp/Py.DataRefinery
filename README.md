@@ -1,4 +1,4 @@
-PyDataRefinery: Customer Data ETL Pipeline
+**PyDataRefinery: Customer Data ETL Pipeline**
 
 PyDataRefinery is a Python-based ETL (Extract, Transform, Load) utility designed to sanitize and validate raw customer data. It transforms inconsistent "dirty" datasets into structured, analysis-ready CSV files while providing a detailed audit trail of data quality issues.
 
@@ -61,22 +61,6 @@ cd Py.DataRefinery
 Simply run the Python script:
 
 python refinery.py
-
-> Sample Output Report
-
-Upon completion, the script generates an audit report:
-
-DATA QUALITY REPORT
-====================
-Total processed: 100
-Clean records:   85
-Dropped records: 15
-
-Issue Breakdown:
-- Missing Names:     2
-- Invalid Emails:    5
-- Invalid Age:       3
-- Duplicate IDs:     5
 
 > Milestone
 
