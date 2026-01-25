@@ -26,7 +26,6 @@ PyDataRefinery/
 - Email: Must follow standard format (containing @ and a domain).
 - Age: Must be a valid integer between 1 and 100.
 - Uniqueness: Customer ID must not have appeared previously in the dataset.
-```
 
 ## Prerequisites
 ```
