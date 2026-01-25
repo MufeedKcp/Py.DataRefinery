@@ -38,26 +38,21 @@ Ensure your input file is located at data/customers_raw.csv.
 ``` 
 ## Installation
 Clone the repository:
-code
-Bash
+```
 git clone https://github.com/MufeedKcp/Py.DataRefinery.git
+```
 Navigate to the project directory:
-code
-Bash
+```
 cd Py.DataRefinery
+```
 Running the Pipeline
-Simply run the Python script:
-code
-Bash
+```
 python refinery.py
-
+```
 ##  Sample Output Report
 Upon completion, the script generates an audit report:
-code
-Text
-
+```
 DATA QUALITY REPORT
-====================
 Total processed: 16
 Clean records:   8
 Dropped records: 8
@@ -70,5 +65,6 @@ Issue Breakdown:
 - Invalid Age:       4
 - Duplicate IDs:     1
 ```
+## Milestone: 
+This project represents Day 25 of my Python learning journey, focused on building robust, reusable data pipelines.
 ```
-Milestone: This project represents Day 25 of my Python learning journey, focused on building robust, reusable data pipelines.
