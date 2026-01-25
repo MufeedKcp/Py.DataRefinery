@@ -1,56 +1,75 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![Status](https://img.shields.io/badge/Status-Completed-success) ![ETL](https://img.shields.io/badge/Project-ETL%20Pipeline-orange) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Data Engineering](https://img.shields.io/badge/Focus-Data%20Engineering-purple)
 
-# **PyDataRefinery — Customer Data ETL Pipeline**
-PyDataRefinery is a Python-based ETL (Extract, Transform, Load) pipeline that cleans, validates, and standardizes raw customer data into analysis-ready datasets while generating a comprehensive data quality audit.
+<h1 align="center"><b>PyDataRefinery — Customer Data ETL Pipeline</b></h1> <p align="center">Python-based data cleaning, validation & quality reporting</p>
+📌 Project Snapshot
 
-This project demonstrates real-world data engineering fundamentals, including data validation, deduplication, and quality reporting using Python.
+Project Type: Data Engineering / ETL
+Language: Python
+Input: Raw CSV customer data
+Output: Cleaned CSV + Data Quality Audit Report
 
-🔍 Project Overview
+🚀 Overview
 
-In real production environments, raw data is often inconsistent, incomplete, and unreliable.
-PyDataRefinery simulates this challenge by transforming unvalidated CSV data into a clean, trustworthy dataset suitable for analytics and downstream processing.
+PyDataRefinery is a Python-based ETL (Extract, Transform, Load) utility designed to sanitize and validate raw customer data.
+It transforms inconsistent and unvalidated datasets into structured, analysis-ready CSV files while generating a detailed audit trail of data quality issues.
 
-The pipeline enforces strict validation rules, removes bad records, and produces a detailed data quality report to ensure transparency and traceability.
+This project simulates a real-world data engineering workflow where raw data must be converted into a reliable “source of truth.”
 
 ✨ Key Features
 
-Data Cleaning & Normalization
+Data Normalization
 
-Trims whitespace
+Trims whitespace from names
 
-Standardizes name casing
+Applies Title Case formatting
 
 Converts emails to lowercase
 
 Data Validation
 
-Regex-based email format validation
+Regex-based email format checks
 
-Age validation with boundary checks (1–100)
+Age validation with strict boundary enforcement
 
-Mandatory field enforcement
+Mandatory field verification
 
-Deduplication Logic
+Deduplication
 
-Removes duplicate records using Customer ID hashing
+Identifies duplicate records using Customer ID hashing
 
-Data Quality Reporting
+Retains only the first valid occurrence
 
-Automatically generates a detailed audit report
+Automated Quality Reporting
+
+Generates a detailed data_quality_report.txt
 
 Tracks dropped records and failure reasons
 
 🛠️ Validation Rules
 
-Records are retained only if all conditions pass:
+Records are retained only if all rules pass.
 
-Name must not be empty
+Name
 
-Email must contain @ and a valid domain
+Cannot be empty
 
-Age must be an integer between 1 and 100
+Whitespace trimmed and standardized
 
-Customer ID must be unique
+Email
+
+Converted to lowercase
+
+Must contain @ and a valid domain
+
+Age
+
+Must be an integer
+
+Valid range: 1–100
+
+Customer ID
+
+Must be unique across the dataset
 
 📁 Project Structure
 PyDataRefinery/
@@ -60,10 +79,10 @@ PyDataRefinery/
 │   ├── cleaned_data.csv         # Cleaned output dataset
 │   └── data_quality_report.txt  # Data quality audit
 │
-├── refinery.py                  # Core ETL pipeline
-└── README.md                    # Documentation
+├── refinery.py                  # Core ETL pipeline logic
+└── README.md                    # Project documentation
 
-🚀 Getting Started
+🚦 Getting Started
 Prerequisites
 
 Python 3.x
@@ -74,10 +93,24 @@ Installation
 git clone https://github.com/MufeedKcp/Py.DataRefinery.git
 cd Py.DataRefinery
 
-Run the Pipeline
+▶️ Running the Pipeline
+
+Execute the ETL process using:
+
 python refinery.py
 
-📊 Sample Data Quality PyDataRefinery — Customer Data ETL Pipeline Report
+
+The script will:
+
+Read raw customer data
+
+Apply validation and cleaning rules
+
+Write clean records to cleaned_data.csv
+
+Generate a data quality audit report
+
+📊 Sample Output Report
 DATA QUALITY REPORT
 ====================
 Total processed: 100
@@ -92,11 +125,11 @@ Issue Breakdown:
 
 🧠 Skills Demonstrated
 
-Python (CSV processing, regex, file I/O)
+Python (CSV handling, regex, file I/O)
 
 ETL pipeline design
 
-Data validation & cleansing
+Data validation and cleansing
 
 Deduplication strategies
 
@@ -106,4 +139,4 @@ Defensive programming
 
 🎯 Milestone
 
-Built as Day 25 of my Python learning journey, focused on designing robust, reusable data pipelines aligned with real-world data engineering workflows.
+This project represents Day 25 of my Python learning journey, focused on building robust, reusable ETL pipelines aligned with real-world data engineering practices.
