@@ -1,8 +1,9 @@
-# PyDataRefinery: Customer Data ETL Pipeline
+# PyDataRefinery: Customer Data ETL Pipeline![Data Engineering](https://img.shields.io/badge/Focus-Data%20Engineering-purple)
 
-**PyDataRefinery** is a Python-based ETL (Extract, Transform, Load) utility designed to sanitize and validate raw customer data. It transforms inconsistent "dirty" datasets into structured, analysis-ready CSV files while providing a detailed audit trail of data quality issues.
 
-### Key Feature
+**PyDataRefinery** is a Python-based ![ETL](https://img.shields.io/badge/Project-ETL%20Pipeline-orange) (Extract, Transform, Load) utility designed to sanitize and validate raw customer data. It transforms inconsistent "dirty" datasets into structured, analysis-ready CSV files while providing a detailed audit trail of data quality issues.
+
+### Core Capbilities:
 - **Data Normalization:** Trims whitespace and applies Title Case to names; converts emails to lowercase.
 - **Email Validation:** Uses Regular Expressions (Regex) to ensure valid email structures.
 - **Boundary Checks:** Validates that ages are integers between 1 and 100.
@@ -21,7 +22,7 @@ PyDataRefinery/
 ├── refinery.py                  # Core ETL logic
 └── README.md                    # Documentation
 ```
-## Data is Valid if:
+## Data is Valid IF:
 - Name: Field cannot be empty.
 - Email: Must follow standard format (containing @ and a domain).
 - Age: Must be a valid integer between 1 and 100.
@@ -29,7 +30,7 @@ PyDataRefinery/
 
 ## Prerequisites
 ```
-Python 3.x
+Python 3.x ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ```
 ```
 Ensure your input file is located at data/customers_raw.csv.
@@ -65,4 +66,3 @@ Issue Breakdown:
 ```
 ## Milestone: 
 This project represents Day 25 of my Python learning journey, focused on building robust, reusable data pipelines.
-```
