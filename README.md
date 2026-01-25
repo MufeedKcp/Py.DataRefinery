@@ -21,8 +21,7 @@ PyDataRefinery/
 ├── refinery.py                  # Core ETL logic
 └── README.md                    # Documentation
 ```
-## 🛠️ Validation Rules
-```
+## Data is Valid if:
 - Name: Field cannot be empty.
 - Email: Must follow standard format (containing @ and a domain).
 - Age: Must be a valid integer between 1 and 100.
