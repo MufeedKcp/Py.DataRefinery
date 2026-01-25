@@ -22,15 +22,18 @@ PyDataRefinery/
 └── README.md                    # Documentation
 ```
 ## 🛠️ Validation Rules
-Name: Field cannot be empty.
-Email: Must follow standard format (containing @ and a domain).
-Age: Must be a valid integer between 1 and 100.
-Uniqueness: Customer ID must not have appeared previously in the dataset.
-
+```
+- Name: Field cannot be empty.
+- Email: Must follow standard format (containing @ and a domain).
+- Age: Must be a valid integer between 1 and 100.
+- Uniqueness: Customer ID must not have appeared previously in the dataset.
+```
 
 ## Prerequisites
 ```
 Python 3.x
+```
+```
 Ensure your input file is located at data/customers_raw.csv.
 ``` 
 ## Installation
