@@ -1,5 +1,3 @@
-                ![Python](https://img.shields.io/badge/Python-3.x-blue) ![Data Engineering](https://img.shields.io/badge/Focus-Data%20Engineering-purple)
-
 # PyDataRefinery: Customer Data ETL Pipeline
 
 **PyDataRefinery** is a Python-based ETL (Extract, Transform, Load) utility designed to sanitize and validate raw customer data. It transforms inconsistent "dirty" datasets into structured, analysis-ready CSV files while providing a detailed audit trail of data quality issues.
