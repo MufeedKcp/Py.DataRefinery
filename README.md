@@ -16,10 +16,9 @@
 ```text
 PyDataRefinery/
 │
-├── data/
-│   ├── customers_raw.csv        # Input: Raw landing zone
-│   ├── cleaned_data.csv        # Output: Sanitized data
-│   └── data_quality_report.txt # Audit: Quality metrics
+├── customers_raw.csv        # Input: Raw landing zone
+├── cleaned_data.csv         # Output: Sanitized data
+│── data_quality_report.txt  # Audit: Quality metrics
 │
 ├── refinery.py                  # Core ETL logic
 └── README.md                    # Documentation
