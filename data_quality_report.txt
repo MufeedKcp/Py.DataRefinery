@@ -1,0 +1,14 @@
+
+DATA QUALITY REPORT
+====================
+Total processed: 16
+Clean records:   8
+Dropped records: 8
+
+Issue Breakdown:
+- Missing Names:     0
+- Missing Emails:    1
+- Invalid Emails:    1
+- Missing Age:       1
+- Invalid Age:       4
+- Duplicate IDs:     1
