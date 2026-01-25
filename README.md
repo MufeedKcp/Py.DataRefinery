@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3.x-blue) ![License](https://img.shields.io/badge/License-MIT-lightgrey) ![Data Engineering](https://img.shields.io/badge/Focus-Data%20Engineering-purple)
+                ![Python](https://img.shields.io/badge/Python-3.x-blue) ![Data Engineering](https://img.shields.io/badge/Focus-Data%20Engineering-purple)
 
 # PyDataRefinery: Customer Data ETL Pipeline
 
