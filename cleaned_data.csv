@@ -1,9 +1,15 @@
-customer_id,name,email,age
-1,Alice Smith,alice.smith@email.com,29
-5,Evan Lee,evan.lee@email.com,34
-8,Henry Ford,henry.ford@email.com,40
-9,Ivy Chen,ivy.chen@email.com,31
-11,Kate Wilson,kate.wilson@email.com,28
-12,Liam O'Neil,liam.oneil@email.com,22
-14,Noah Patel,noah.patel@email.com,36
-15,Olivia Davis,olivia.davis@email.com,27
+customer_id	name	email	age	country	signup_date
+1	alice smith	alice.smith@email.com	29	usa	2023-01-15
+2	bob jones	bob.jones@email.com		-	2023-02-10
+3	charlie brown	charlie.brown@email	45	canada	2023-02-12
+4	diana prince	diana.prince@email.com	-5	usa	2023-03-01
+5	evan lee	evan.lee@email.com	34	usa	2023-03-05
+6	frank wright	frank.wright@email.com	150	uk	2023-03-07
+8	henry ford	henry.ford@email.com	40	usa	2023-03-10
+9	ivy chen	ivy.chen@email.com	31	china	2023-03-12
+10	jack miller	jack.miller@email.com		usa	2023-03-15
+11	kate wilson	kate.wilson@email.com	28		2023-03-18
+12	liam o'neil	liam.oneil@email.com	22	ireland	2023-03-20
+13	mia lopez	mia.lopez@email.com	0	mexico	2023-03-21
+14	noah patel	noah.patel@email.com	36	india	2023-03-25
+15	olivia davis	olivia.davis@email.com	27	usa	2023-03-30
