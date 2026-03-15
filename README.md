@@ -23,7 +23,7 @@ PyDataRefinery/
 └── README.md                    # Documentation
 ```
 
-
-
-## Milestone: 
-This project represents Day 25 of my Python learning journey, focused on building robust, reusable data pipelines.
+### improvement maded:
+- use pandas for better data cleaning
+- use numpy to convert empty columns into numpy NaN
+- use regular expression so it matches strings that are either empty or contain only whitespace 
